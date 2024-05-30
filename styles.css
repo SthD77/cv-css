@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    /* font-family: "Sevillana", cursive; */
+    font: normal 16px "Sevillana", cursive;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: grey;
+}
+
+.flag {
+    width: 200px;
+    border-radius: 26px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info p{
+    color: #86898f;
+    margin: 0;
+    font-style: normal;
+    text-decoration: none;
+    /* text-transform: lowercase; */
+    /* letter-spacing: normal; */
+    /* word-spacing: normal; */
+
+}
+.info{
+    margin-bottom: 20px;
+}
+
+/* .social{
+    background:green;
+    padding: 15px;
+    margin: 5px;
+
+    border: 5px solid red;
+    border-bottom-style: dotted;
+    border-top-width: 15px;
+    border-right-color: blueviolet;
+} */
+
+.container{
+    max-width: 750px;
+    margin: auto;
+
+}
+
+.card {
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.bg-yellow{
+    background: #fff9dc;
+}
+.bg-red{
+    background: #e5ffe7;
+}
+.bg-green{
+    background: #ffe5e5;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list{
+    padding: 0 20px;
+    list-style: none;
+}
+.list li{
+    color: #89898f;
+    margin-bottom: 10px;
+    /* border-bottom: 1px solid grey; */
+}
+
+.table{
+    width: 100%;
+
+}
+.table td:nth-child(3) {
+    color: green;
+}
+.table tr:nth-child(even){
+    background: red;
+}
+
+/* .box-model div{
+    background: #000;
+    height: 200px;
+    width: 25%;
+    float: left;
+    border: 4px solid red;
+    box-sizing: border-box;
+} */
