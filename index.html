@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body >
+    <div class="container">
         <div class="info">
                 <img src="flag.jpeg" alt="Тут аватарка" class="flag">
+            <div class="info-text">
                 <h1>Дмитро Шатохін</h1>
                 <p>Я програміст-початківець<strong>(trainee/junior)</strong></p>
                 <p>Я люблю грати у футбол, їздити на машині і більше здобувати знання в іт сфері</p>
@@ -15,6 +17,7 @@
                 <a href="https://t.me/-d">TELEGRAM</a>
                 |
                 <a href="https://instagram.com/95_mcqueen_btw" target="_blank">INSAGRAM</a>
+            </div>
         </div>
     <!-- <img src="https://img.freepik.com/premium-photo/ukrainian-flag-of-ukraine_469558-1813.jpg" width="200"> -->
                                 <!-- 1 вариант -->
@@ -167,31 +170,46 @@
         </div>
         
     <div class="card bg-red">
-        <h2>it - trainee</h2>
-        <a href="it.trainee.html">посмотреть курсы</a>
-    </div>
+            <h2>it - trainee</h2>
+        <ul class="link-list">
+            <li>
+                <a href="it.trainee.html">посмотреть курсы</a>
+            </li>
+            <li>
+                <a href="it.trainee.html">посмотреть курсы</a>
+            </li>
+        </ul>
+        </div>
 
-    <div class="card bg-red">
+    <div class="contact">
         <h2>зв'язок зі мною</h2>
             <form action="/">
-                <label for="name">Ваше Ім'я</label>
-                <input type="text" id="name" placeholder="ім'я">
+                <div class="row">
+                <div class="form-group">
+                    <label for="name">Ваше Ім'я</label>
+                    <input type="text" id="name" placeholder="ім'я">
+                </div> 
+            </div> 
+                 <div class="form-group">
+                    <label for="email">Ваш Емаіл</label>
+                    <input type="email"  id="email" placeholder="Емаіл">
+                </div>
 
-                    <br>
-
-                <label for="email">Ваш Емаіл</label>
-                <input type="email"  id="email" placeholder="Емаіл">
-
-
-                        <br>
-
+                <div class="form-group">
                 <label for="text">Ваш TEXT</label> 
-                        <br>
                 <textarea name="" id="text"></textarea>
-                        <br>    
-                <input type="submit" value="Зв'язатися зі мною">
+                </div>    
+                <input class="btn" type="submit" value="Зв'язатися зі мною">
         </form>
+    </div>
+    <div class="position">
+    <div class="box"></div>
+    </div>
+
+    <div class="margin-bottom: 500px;"></div>
 </div>
+
+
 
     
 
